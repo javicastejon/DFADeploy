@@ -38,10 +38,9 @@ Para iniciar la infraestructura de la aplicación, ejecuta:
 docker compose up -d --build
 ```
 
-Este comando hará:
-- Construir las imágenes de Docker
-- Iniciar todos los servicios requeridos (PHP, MySQL)
-- Ejecutar la aplicación en modo desacoplado
+Este comando:
+- Creará las imágenes de Docker
+- Iniciará los servicios definidos en docker compose (PHP, MySQL)
 
 ### Detener la Aplicación
 
@@ -51,10 +50,8 @@ docker compose down
 
 ## Características
 
-- Crear nuevos usuarios
-- Listar todos los usuarios
-- Interfaz simple y limpia
-- Containerizado con Docker para fácil implementación
+- Creación de nuevos usuarios
+- Listado de todos los usuarios en el interfaz principal
 
 ## Estructura del Proyecto
 
@@ -71,7 +68,7 @@ DFADeploy/
 Una vez ejecutado `docker compose up -d --build`, la aplicación estará disponible en:
 
 - **Aplicación PHP**: http://localhost:8080
-- **phpMyAdmin**: http://localhost:8081
+- **phpMyAdmin**: http://localhost:8081  (root/root)
 
 
 
