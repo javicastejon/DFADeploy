@@ -1,0 +1,35 @@
+# PHP
+*.php~
+*.phtml
+.DS_Store
+Thumbs.db
+
+# Composer
+composer.phar
+/vendor/
+composer.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Runtime
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+cache/
