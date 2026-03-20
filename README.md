@@ -1,10 +1,8 @@
 # DFADeploy
 
-Aplicación simple de PHP y MySQL para crear y listar usuarios.
+Este proyecto contiene una aplicación muy simple de PHP y MySQL para crear y listar usuarios mediante una interfaz web simple.
+El propósito principal de este repositorio es tener un **ejemplo básico para un despliegue con contenedores de docker**.
 
-## Descripción General
-
-Este proyecto demuestra un sistema básico de gestión de usuarios construido con PHP y MySQL. Proporciona funcionalidad para crear nuevos usuarios y ver una lista de usuarios existentes a través de una interfaz web simple.
 
 ## Requisitos
 
@@ -70,6 +68,10 @@ DFADeploy/
 ```
 
 ## Notas
+Una vez ejecutado `docker compose up -d --build`, la aplicación estará disponible en:
+
+- **Aplicación PHP**: http://localhost:8080
+- **phpMyAdmin**: http://localhost:8081
 
 
 
